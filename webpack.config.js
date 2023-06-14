@@ -6,6 +6,8 @@ module.exports = withModuleFederationPlugin({
 
   exposes: {
     './RemoteMfeModule': './src/app/remote-mfe/remote-mfe.module.ts',
+    './MfeFragmentComponent': './src/app/remote-mfe/mfe-fragment/mfe-fragment.component.ts'
+    
   },
 
   shared: {
