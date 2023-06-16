@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CommonModule } from '@angular/common';
 import { RemoteMfeModule } from './remote-mfe/remote-mfe.module';
 
 @NgModule({
@@ -18,4 +17,6 @@ import { RemoteMfeModule } from './remote-mfe/remote-mfe.module';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+
+}
